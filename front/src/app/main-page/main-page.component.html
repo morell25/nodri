@@ -1,0 +1,14 @@
+<p>Inicial el chat con una persona por su nombre de usuarios ya!</p>
+<form (submit)="onSubmit($event)">
+    <input name="username" [(ngModel)]="username" placeholder="Escribe el nombre de usuario de la persona" />
+    <button class="btn" (click)="onSubmit($event)">Iniciar chat</button>
+    
+</form>
+
+
+<form (submit)="onSubmit($event)">
+    <button class="btn" (click)="unirte()">Crea tu propia sala para que se unan</button> 
+</form>
+
+
+
